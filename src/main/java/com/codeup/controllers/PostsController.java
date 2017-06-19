@@ -13,14 +13,18 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class PostsController {
 
 
-    @RequestMapping(path = "/increment/{number}", method = RequestMethod.GET)
-    @ResponseBody
-    public String addOne(@PathVariable int number) {
-        return number + " plus one is " + (number + 1) + "!";
-    }
+//    @RequestMapping(path = "/resume", method = RequestMethod.GET)
+//    @ResponseBody
+//    public String y(@PathVariable String resumept) {
+//        return "I can" + resumept + "!";
+//    }
 
 
-
+//    @RequestMapping(path = "/portfolio", method = RequestMethod.GET)
+//    @ResponseBody
+//    public String x(@PathVariable string portfolio) {
+//        return number + " plus one is " + (number + 1) + "!";
+//    }
 
 
 }

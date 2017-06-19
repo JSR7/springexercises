@@ -24,7 +24,7 @@ public class MathController {
             return number + " plus two is" + (number + 2) + "!";
         }
 
-    
+
 
 
 
